@@ -1,7 +1,6 @@
 function gco -d "Checkout to branch" -a branch
 echo;
-  echo "Updating branch";
-  git pull origin $branch
+  echo "Checking out branch {$branch}";
   git checkout $branch
 echo;
 end

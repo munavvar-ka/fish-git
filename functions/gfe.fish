@@ -1,4 +1,4 @@
-function gf -d "Fetch"
+function gfe -d "Fetch"
 echo;
   echo "Fetching"
   git fetch
